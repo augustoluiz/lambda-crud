@@ -1,0 +1,39 @@
+{
+  "resource": "/{proxy+}",
+  "path": "/pedidos",
+  "httpMethod": "POST",
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "queryStringParameters": null,
+  "pathParameters": null,
+  "stageVariables": null,
+  "requestContext": {
+    "resourceId": "123456",
+    "resourcePath": "/{proxy+}",
+    "httpMethod": "POST",
+    "extendedRequestId": "request-id",
+    "requestTime": "12/Oct/2023:19:03:58 +0000",
+    "path": "/pedidos",
+    "accountId": "123456789012",
+    "protocol": "HTTP/1.1",
+    "stage": "prod",
+    "domainPrefix": "api",
+    "requestTimeEpoch": 1500000000000,
+    "requestId": "c1234567-d89e-1234-a456-426614174000",
+    "identity": {
+      "cognitoIdentityPoolId": null,
+      "accountId": null,
+      "cognitoIdentityId": null,
+      "caller": null,
+      "sourceIp": "127.0.0.1",
+      "principalOrgId": null,
+      "userAgent": "PostmanRuntime/7.26.10",
+      "user": null
+    },
+    "domainName": "api.example.com",
+    "apiId": "api-id"
+  },
+  "body": "{\"pedido_id\": \"123\", \"data_hora\": \"2023-10-12T19:03:58\", \"cliente\": \"João\", \"itens\": [{\"item\": \"producto-id-123\", \"quantidade\": 2}], \"preco_total\": 100.00}",
+  "isBase64Encoded": false
+}
